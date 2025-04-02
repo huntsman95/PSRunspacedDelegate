@@ -14,7 +14,7 @@
 RootModule = 'PSRunspacedDelegate.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.01'
+ModuleVersion = '0.02'
 
 # ID used to uniquely identify this module
 GUID = '62452098-118c-4a67-93f6-632a78ec0260'
@@ -92,7 +92,7 @@ AliasesToExport = ''
 
 # List of all files packaged with this module
 FileList = @(
-	'PSRunspacedDelegate.psd1', 'PSRunspacedDelegate.psm1', 'RunspacedDelegateFactory.cs'
+	'PSRunspacedDelegate.psd1', 'PSRunspacedDelegate.psm1'
 )
 
 # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.

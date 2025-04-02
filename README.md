@@ -1,5 +1,9 @@
 # PSRunspacedDelegate
 
+## ChangeLog
+* v0.02 - Refactored C# code into a native PowerShell class using Linq Expressions to avoid reliance on `Add-Type`
+* v0.01 - Initial release
+
 PowerShell module for creating delegates that can access the current PowerShell runspace.
 
 Such delegates can be used for asynchronous programming, and enable PowerShell code to run in a separate thread.
